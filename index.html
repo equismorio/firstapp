@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Document</title>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.jpg">
+    <link rel="stylesheet" href="./stylesheet.css">
+    <link rel="stylesheet" href="./normalize.css">
+    <script src="./js/myFunctions.js"></script>
+</head>
+<body>
+    <h1 id="topLine">My first HTML page</h1>
+    <a href="nextpage.html">This link points to my boy's photo.</a>
+    <!-- <button onclick="onClickFunc()">Click Me</button> -->
+    <br>
+    <img src="./images/Joey painted face.jpg" alt="kuya" style="width:150px; margin-top: 5em;">
+    <br>
+    <a>Joey's painted face @ Forthworth.</a>
+    <br>
+    <br>
+
+    <img src="./images/Tim painted face.jpg" style="margin-bottom: 5em;">
+    <br>
+    <a>Tim's painted face @ Forthworth.</a>
+    <br>
+    <iframe width="580" height="445" style="border:1px solid white;" src="https://www.youtube.com/embed/OLwnqjBhNBc">
+    </iframe>
+    <video width="580" height="445" style="border:1px solid white; margin-left: 100px;;" controls>
+        <source src="./movies/boys at mcdonalds.MOV" type="video/mp4">
+      Your browser does not support the video tag.
+      </video>
+      <video width="580" height="445" style="border:1px solid white; margin-left: 100px;;" controls>
+        <source src="./movies/Jump off a cliff.MOV" type="video/mp4">
+      Your browser does not support the video tag.
+      </video>
+
+
+      <div style="margin-top: 5em;">
+    <p>This is my first paragraph</p>
+    <h1>Hello World in &lt;h4&gt;!</h1>
+    <h2>Hello World!</h2>
+    <h3>Hello World!</h3>
+    <h4>Hello World!</h4>
+    </div>
+    <p>This is a paragraph with a <span>span</span> in it.</p>
+    <div class="items_container">
+        <p>This is a paragraph inside a &lt;div&gt;</p>
+        <ul>
+            <li class="items">item 1</li>
+            <li>item 2</li>
+            <li>item 2</li>
+        </ul>
+    </div>
+    <a href="https://www.google.com" target="_blank">Google</a>
+    <br>
+    <button onclick="myFunction()">Click me</button>
+    <p id="bottom"></p>
+    <div class="form_container">
+    <h4>Html Forms</h4>
+
+    <form>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    </div>
+    <div class="form_container" style="background-color: bisque;">
+    <h4>Radio Button Forms</h4>
+    <p>Choos your favorite Web programming language:</p>
+    <form>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    </div>
+</body>
+</html>
